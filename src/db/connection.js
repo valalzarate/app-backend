@@ -9,3 +9,5 @@ const uri_db = `mongodb+srv://${db_user}:${db_password}@cluster0.tcfvyg5.mongodb
 mongoose.connect(uri_db)
 .then(()=>console.log('Base de datos conectada'))
 .catch(()=>console.log('Error en conexion con bases de datos'))
+
+//hola mundo
